@@ -737,7 +737,19 @@ header a.touch{
   filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
   background-color: #fff;
   color: #1F2833;
+} 
+.scroll-up header .menuh .burger,
+.scroll-up header .menuh .burger::before,
+.scroll-up header .menuh .burger::after{
+  background-color: var(--pry-color);
 }
+.scroll-down header .menuh .burger,
+.scroll-down header .menuh .burger::before,
+.scroll-down header .menuh .burger::after{
+  background-color: var(--pry-color);
+}
+ 
+
 .scroll-up header a{
   color: #1F2833;
 }
